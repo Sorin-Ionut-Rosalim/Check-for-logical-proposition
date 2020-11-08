@@ -73,7 +73,7 @@ def check(p):
                 return False
         elif case == 5:
             if p[i] in ['&', '|', '=', '<', '>']:
-                print(f"Step ", i, ": we found a ", p[i],", we expect next a ( or an atomic proposition")
+                print(f"Step {i}: we found a ", p[i],", we expect next a ( or an atomic proposition")
                 operator_needed -= 1
                 maxo += 1
                 case = 3
