@@ -108,6 +108,7 @@ print(" ! is the symbol for not\n","| is the symbol for or\n",
       "< is the symbol for is implied by\n",
       "= is the symbol for if and only if\n",
       "Any upper case letter is an atomic proposition")
+
 p = input(" Plese input a string of symbols:\n")
 print("\n")
 for i in range(len(p)):
